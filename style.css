@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1300px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 35rem;
+    border-radius: 15px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    border: 5px solid rgba(251, 255, 19, 0.75);
+}
+
+.sneaker {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sneaker img {
+    width: 20rem;
+    z-index: 2;
+    transition:all 0.5s ease-out;
+}
+
+.woods {
+    width: 45rem;
+    height: 17rem;
+    border: radius 0px;
+    position: absolute;
+    z-index: 4;
+    border:5px solid rgb(251, 255, 20)
+}
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(228, 231, 10, 0.904),
+        rgba(243, 243, 243, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.info h1 {
+    font-size: 3rem;
+    transition:all 0.5s ease-out;
+    text-align: center;
+}
+.info h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem 0rem;
+    color:rgb(251, 255, 20);
+    font-weight: lighter;
+    transition:all 0.5s ease-out;
+}
+
+.sizes {
+    display:flex;
+    justify-content: space-between;
+    transition:all 0.5s ease-out;
+}
+
+.sizes button {
+    padding: .5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    cursor:pointer;
+    font-weight: bold;
+    color:rgba(19, 19, 19, 0.75)
+}
+
+button.active {
+    background: rgba(19, 19, 19, 0.75);
+    color: white;
+}
+
+.purchase {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    transition:all 0.5s ease-out;
+}
+
+.purchase button {
+    width: 100%;
+    padding: 1rem 0rem;
+    background:rgba(19, 19, 19);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition:all 0.5s ease-out;
+}
