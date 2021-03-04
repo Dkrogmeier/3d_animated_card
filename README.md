@@ -1,4 +1,4 @@
 # 3d_animated_card
 3D animated card made with HTML, CSS, and JS
 
-![gif](https://user-images.githubusercontent.com/58488737/110021557-82991d80-7cf0-11eb-9719-cd3b364ac215.png)
+https://github.com/Dkrogmeier/dkrogmeier/blob/main/3d%20Card%20Effect%20-%20Google%20Chrome%202021-03-04%2013-47-46.gif
